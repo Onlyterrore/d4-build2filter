@@ -38,9 +38,14 @@ export const PROPERTY = {
   MYTHIC: 32,
 };
 
-// Верхняя граница "недревнего". В тексте статьи maxroll стоит 851,
-// в её же рабочем коде — 850. UNVERIFIED: подтвердить на круге сверки.
-export const NON_ANCESTRAL_MAX_POWER = 850;
+// Верхняя граница "недревнего".
+// Замер 2026-09-21 по живому коду "Maxroll Light": он сам себе противоречит —
+// в правилах "T12 non-anc uniques" и "T10+ non-anc legs" стоит 850,
+// в "T8+ non-anc non-legs" и "T6+ non-anc white/blue" — 851.
+// Берём 851: именно это число названо в тексте инструкции maxroll, и оно
+// не может отсечь лишнего (древние вещи всё равно 900).
+// UNVERIFIED: подтвердить на круге сверки с игрой.
+export const NON_ANCESTRAL_MAX_POWER = 851;
 
 export const DEFAULT_HIGHLIGHT_COLOR = 0xffff8c1a; // ARGB, оранжевый
 export const CODEX_COLOR = 0xff6ac46a;             // ARGB, зелёный
