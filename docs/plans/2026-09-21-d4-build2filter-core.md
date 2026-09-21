@@ -45,7 +45,7 @@
 - [ ] **Step 1: Инициализировать git**
 
 ```bash
-cd "C:/Users/dased/OneDrive/Документы/Claude/Projects/Other/d4-build2filter"
+cd <папка проекта>
 git init -b main
 ```
 
