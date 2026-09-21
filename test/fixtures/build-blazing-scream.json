@@ -1,0 +1,3805 @@
+{
+  "name": "projects/d4builds-a3254/databases/(default)/documents/builds/87dc0249-02db-4eb0-b9fc-c2acfb012fa6",
+  "fields": {
+    "skillTree": {
+      "stringValue": "0000000000000000000000000000000000100100100010000000000000000000000000000000000f01000100100000000000000000000000000000000000f0010001001f001000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0010001010"
+    },
+    "gems": {
+      "mapValue": {
+        "fields": {
+          "Ring 1": {
+            "nullValue": null
+          },
+          "Weapon": {
+            "nullValue": null
+          },
+          "Armor": {
+            "nullValue": null
+          },
+          "Ring 2": {
+            "nullValue": null
+          },
+          "Jewelry": {
+            "nullValue": null
+          }
+        }
+      }
+    },
+    "levelingOrder": {
+      "arrayValue": {
+        "values": [
+          {
+            "stringValue": "Command Fallen"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Wrath Command Fallen"
+          },
+          {
+            "stringValue": "Damage Blazing Scream"
+          },
+          {
+            "stringValue": "Extra Charge Nether Step"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Dominance Command Fallen"
+          },
+          {
+            "stringValue": "Impact Velocity Blazing Scream"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Movement Speed Nether Step"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Orbital Scream Blazing Scream"
+          },
+          {
+            "stringValue": "Meat Shields Command Fallen"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Pull Terror Swarm"
+          },
+          {
+            "stringValue": "Vulnerable Terror Swarm"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Cooldown Reduction Dark Prison"
+          },
+          {
+            "stringValue": "Fortify Dark Prison"
+          },
+          {
+            "stringValue": "Chain Aura Dark Prison"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Searing Infestation Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Dark Prison"
+          }
+        ]
+      }
+    },
+    "season": {
+      "integerValue": "15"
+    },
+    "vampPowers": {
+      "arrayValue": {
+        "values": [
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "notes": {
+      "stringValue": "**DISCLAIMER**\n- This was the fast Builds I've tested on the Level 40 playtest! \n- We have not seen exactly when each Skill unlocks so you might need to adjust a bit on the fly!\n- Use a Blue / Yellow / any Legendary in your free Weapon slot. Main focus is pure DPS here so we don't waste resource imprinting it every level.\n\nTranstion to the Endgame #[https://d4builds.gg/builds/blazing-scream-warlock-endgame/?var=0][Build]#"
+    },
+    "temperingStats": {
+      "mapValue": {
+        "fields": {
+          "Weapon": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Offhand": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Shadow Damage (Elemental Finesse: Night - Offensive)"
+                }
+              ]
+            }
+          },
+          "Ring 2": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Shadow Damage (Elemental Finesse: Night - Offensive)"
+                }
+              ]
+            }
+          },
+          "Pants": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Maximum Life (Worldly Endurance - Defensive)"
+                }
+              ]
+            }
+          },
+          "Helm": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Maximum Life (Worldly Endurance - Defensive)"
+                }
+              ]
+            }
+          },
+          "Gloves": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Shadow Damage (Elemental Finesse: Night - Offensive)"
+                }
+              ]
+            }
+          },
+          "Boots": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Movement Speed (Natural Motion - Mobility)"
+                }
+              ]
+            }
+          },
+          "Amulet": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Maximum Life (Worldly Endurance - Defensive)"
+                }
+              ]
+            }
+          },
+          "Ring 1": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Shadow Damage (Elemental Finesse: Night - Offensive)"
+                }
+              ]
+            }
+          },
+          "Chest Armor": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Maximum Life (Worldly Endurance - Defensive)"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "charms": {
+      "arrayValue": {
+        "values": [
+          {
+            "mapValue": {
+              "fields": {
+                "set": {
+                  "stringValue": "Slaughter"
+                },
+                "name": {
+                  "stringValue": "Mlor of Slaughter"
+                }
+              }
+            }
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "set": {
+                  "stringValue": "Slaughter"
+                },
+                "name": {
+                  "stringValue": "Fer of Slaughter"
+                }
+              }
+            }
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "name": {
+                  "stringValue": "Phoba of Slaughter"
+                },
+                "set": {
+                  "stringValue": "Slaughter"
+                }
+              }
+            }
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "mercenary2": {
+      "stringValue": "Subo, The Drunken Archer"
+    },
+    "stats": {
+      "mapValue": {
+        "fields": {
+          "Chest Armor": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Dual-Wield Weapon 1": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Boots": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Amulet": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Ring 1": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Slashing Weapon": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Gloves": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Dual-Wield Weapon 2": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Bludgeoning Weapon": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Pants": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Ring 2": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Helm": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "soulShards": {
+      "mapValue": {
+        "fields": {
+          "Legion Shard": {
+            "arrayValue": {}
+          },
+          "Ritualist Shard": {
+            "arrayValue": {}
+          },
+          "Mastermind Shard": {
+            "arrayValue": {}
+          },
+          "Vanguard Shard": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Warden Fragment"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "enchantments": {
+      "arrayValue": {
+        "values": [
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "class": {
+      "stringValue": "Warlock"
+    },
+    "leveling": {
+      "booleanValue": true
+    },
+    "variants": {
+      "arrayValue": {}
+    },
+    "bossPowers": {
+      "arrayValue": {
+        "values": [
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "arsenals": {
+      "arrayValue": {
+        "values": [
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "mercenarySkill2": {
+      "stringValue": "Bastion-v2"
+    },
+    "newGems": {
+      "mapValue": {
+        "fields": {
+          "Amulet": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Diamond"
+                }
+              ]
+            }
+          },
+          "Helm": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Yax"
+                },
+                {
+                  "stringValue": "Gar"
+                }
+              ]
+            }
+          },
+          "Ranged Weapon": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Ring 1": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Diamond"
+                }
+              ]
+            }
+          },
+          "Offhand": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Amethyst"
+                }
+              ]
+            }
+          },
+          "Ring 2": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Diamond"
+                }
+              ]
+            }
+          },
+          "Shield": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Weapon": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Chest Armor": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Cir"
+                },
+                {
+                  "stringValue": "Que"
+                }
+              ]
+            }
+          },
+          "Pants": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Sapphire"
+                },
+                {
+                  "stringValue": "Sapphire"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "favorites": {
+      "arrayValue": {}
+    },
+    "specialConnectors": {
+      "arrayValue": {}
+    },
+    "governingStones": {
+      "arrayValue": {
+        "values": [
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "index": {
+      "integerValue": "0"
+    },
+    "mythicCharms": {
+      "arrayValue": {}
+    },
+    "charmStats": {
+      "mapValue": {
+        "fields": {
+          "5": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "0": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Ranks to Demonology Skills"
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "4": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Ranks to Demonology Skills"
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "2": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Ranks to Abyss Skills"
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "1": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Ranks to Abyss Skills"
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "3": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "sealStats": {
+      "arrayValue": {
+        "values": [
+          {
+            "stringValue": "Critical Strike Damage"
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "mercenarySkillTreeFiltered2": {
+      "arrayValue": {
+        "values": [
+          {
+            "mapValue": {
+              "fields": {
+                "active_rank": {
+                  "integerValue": "1"
+                },
+                "after": {
+                  "stringValue": "Bottom"
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "no_interact": {
+                  "booleanValue": true
+                },
+                "left": {
+                  "integerValue": "1050"
+                },
+                "name": {
+                  "stringValue": "Seeker"
+                },
+                "section": {
+                  "integerValue": "0"
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Resource"
+                      }
+                    ]
+                  }
+                },
+                "group": {
+                  "integerValue": "1"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "large": {
+                  "booleanValue": true
+                },
+                "id": {
+                  "integerValue": "0"
+                },
+                "top": {
+                  "integerValue": "230"
+                },
+                "column": {
+                  "stringValue": "c1"
+                },
+                "global_req": {
+                  "integerValue": "0"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "section": {
+                  "integerValue": "1"
+                },
+                "top": {
+                  "integerValue": "350"
+                },
+                "name": {
+                  "stringValue": "Wire Trap"
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Stun"
+                      }
+                    ]
+                  }
+                },
+                "left": {
+                  "integerValue": "900"
+                },
+                "large": {
+                  "booleanValue": true
+                },
+                "group": {
+                  "integerValue": "1"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "global_req": {
+                  "integerValue": "0"
+                },
+                "id": {
+                  "integerValue": "1"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "column": {
+                  "stringValue": "c1"
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "after": {
+                  "stringValue": "Bottom"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "2"
+                      }
+                    ]
+                  }
+                },
+                "no_interact": {
+                  "booleanValue": false
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "name": {
+                  "stringValue": "Molotov"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "large": {
+                  "booleanValue": true
+                },
+                "global_req": {
+                  "integerValue": "0"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "1"
+                      }
+                    ]
+                  }
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "column": {
+                  "stringValue": "c2"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "top": {
+                  "integerValue": "350"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "left": {
+                  "integerValue": "1200"
+                },
+                "after": {
+                  "stringValue": "Bottom"
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Slow"
+                      },
+                      {
+                        "stringValue": "Stun"
+                      },
+                      {
+                        "stringValue": "Burn"
+                      }
+                    ]
+                  }
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "section": {
+                  "integerValue": "1"
+                },
+                "group": {
+                  "integerValue": "2"
+                },
+                "id": {
+                  "integerValue": "2"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "global_req": {
+                  "integerValue": "1"
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "left": {
+                  "integerValue": "830"
+                },
+                "name": {
+                  "stringValue": "Piercing Arrows"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "id": {
+                  "integerValue": "3"
+                },
+                "section": {
+                  "integerValue": "2"
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "1"
+                      }
+                    ]
+                  }
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "group": {
+                  "integerValue": "1"
+                },
+                "large": {
+                  "booleanValue": false
+                },
+                "before": {
+                  "stringValue": "Right"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "4"
+                      }
+                    ]
+                  }
+                },
+                "top": {
+                  "integerValue": "470"
+                },
+                "column": {
+                  "stringValue": "c1"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "large": {
+                  "booleanValue": false
+                },
+                "before": {
+                  "stringValue": "Left"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "column": {
+                  "stringValue": "c2"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "3"
+                      }
+                    ]
+                  }
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "1"
+                      }
+                    ]
+                  }
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Movement Speed"
+                      }
+                    ]
+                  }
+                },
+                "global_req": {
+                  "integerValue": "1"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "section": {
+                  "integerValue": "2"
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "name": {
+                  "stringValue": "Ready At Hand"
+                },
+                "top": {
+                  "integerValue": "470"
+                },
+                "left": {
+                  "integerValue": "1010"
+                },
+                "group": {
+                  "integerValue": "1"
+                },
+                "id": {
+                  "integerValue": "4"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "before": {
+                  "stringValue": "Right"
+                },
+                "global_req": {
+                  "integerValue": "1"
+                },
+                "column": {
+                  "stringValue": "c1"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "6"
+                      }
+                    ]
+                  }
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "group": {
+                  "integerValue": "2"
+                },
+                "left": {
+                  "integerValue": "1130"
+                },
+                "large": {
+                  "booleanValue": false
+                },
+                "top": {
+                  "integerValue": "470"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "section": {
+                  "integerValue": "2"
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "2"
+                      }
+                    ]
+                  }
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Damage Over Time"
+                      }
+                    ]
+                  }
+                },
+                "name": {
+                  "stringValue": "Scorched Earth"
+                },
+                "id": {
+                  "integerValue": "5"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "2"
+                      }
+                    ]
+                  }
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "before": {
+                  "stringValue": "Left"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "5"
+                      }
+                    ]
+                  }
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "column": {
+                  "stringValue": "c2"
+                },
+                "large": {
+                  "booleanValue": false
+                },
+                "section": {
+                  "integerValue": "2"
+                },
+                "left": {
+                  "integerValue": "1310"
+                },
+                "name": {
+                  "stringValue": "Share a Drink"
+                },
+                "id": {
+                  "integerValue": "6"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "global_req": {
+                  "integerValue": "1"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "top": {
+                  "integerValue": "470"
+                },
+                "group": {
+                  "integerValue": "2"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "large": {
+                  "booleanValue": true
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Slow"
+                      }
+                    ]
+                  }
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "3"
+                      },
+                      {
+                        "integerValue": "4"
+                      }
+                    ]
+                  }
+                },
+                "section": {
+                  "integerValue": "3"
+                },
+                "top": {
+                  "integerValue": "590"
+                },
+                "id": {
+                  "integerValue": "7"
+                },
+                "after": {
+                  "stringValue": "Bottom"
+                },
+                "before": {
+                  "stringValue": "Left"
+                },
+                "name": {
+                  "stringValue": "Cover Fire"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "8"
+                      }
+                    ]
+                  }
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "column": {
+                  "stringValue": "c1"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "group": {
+                  "integerValue": "1"
+                },
+                "global_req": {
+                  "integerValue": "2"
+                },
+                "left": {
+                  "integerValue": "810"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "global_req": {
+                  "integerValue": "2"
+                },
+                "row": {
+                  "stringValue": "r2"
+                },
+                "after": {
+                  "stringValue": "Bottom"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "left": {
+                  "integerValue": "990"
+                },
+                "name": {
+                  "stringValue": "Trip Mines"
+                },
+                "before": {
+                  "stringValue": "Right"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "7"
+                      }
+                    ]
+                  }
+                },
+                "column": {
+                  "stringValue": "c1"
+                },
+                "group": {
+                  "integerValue": "2"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "section": {
+                  "integerValue": "3"
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "3"
+                      },
+                      {
+                        "integerValue": "4"
+                      }
+                    ]
+                  }
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Knock Down"
+                      }
+                    ]
+                  }
+                },
+                "large": {
+                  "booleanValue": true
+                },
+                "id": {
+                  "integerValue": "8"
+                },
+                "top": {
+                  "integerValue": "590"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "before": {
+                  "stringValue": "Left"
+                },
+                "after": {
+                  "stringValue": "Bottom"
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "5"
+                      },
+                      {
+                        "integerValue": "6"
+                      }
+                    ]
+                  }
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Knock Down"
+                      }
+                    ]
+                  }
+                },
+                "row": {
+                  "stringValue": "r3"
+                },
+                "name": {
+                  "stringValue": "Snipe"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "10"
+                      }
+                    ]
+                  }
+                },
+                "section": {
+                  "integerValue": "3"
+                },
+                "column": {
+                  "stringValue": "c0"
+                },
+                "group": {
+                  "integerValue": "3"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "left": {
+                  "integerValue": "1110"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "id": {
+                  "integerValue": "9"
+                },
+                "large": {
+                  "booleanValue": true
+                },
+                "global_req": {
+                  "integerValue": "2"
+                },
+                "top": {
+                  "integerValue": "590"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "before": {
+                  "stringValue": "Right"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "9"
+                      }
+                    ]
+                  }
+                },
+                "column": {
+                  "stringValue": "c2"
+                },
+                "large": {
+                  "booleanValue": true
+                },
+                "row": {
+                  "stringValue": "r3"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "id": {
+                  "integerValue": "10"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Overpower"
+                      }
+                    ]
+                  }
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "5"
+                      },
+                      {
+                        "integerValue": "6"
+                      }
+                    ]
+                  }
+                },
+                "after": {
+                  "stringValue": "Bottom"
+                },
+                "global_req": {
+                  "integerValue": "2"
+                },
+                "left": {
+                  "integerValue": "1290"
+                },
+                "section": {
+                  "integerValue": "3"
+                },
+                "name": {
+                  "stringValue": "Explosive Charge"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "group": {
+                  "integerValue": "4"
+                },
+                "top": {
+                  "integerValue": "590"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "left": {
+                  "integerValue": "740"
+                },
+                "group": {
+                  "integerValue": "1"
+                },
+                "top": {
+                  "integerValue": "740"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "column": {
+                  "stringValue": "c1"
+                },
+                "section": {
+                  "integerValue": "4"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "12"
+                      }
+                    ]
+                  }
+                },
+                "global_req": {
+                  "integerValue": "3"
+                },
+                "name": {
+                  "stringValue": "Pin Cushion"
+                },
+                "id": {
+                  "integerValue": "11"
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Immobilize"
+                      }
+                    ]
+                  }
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "7"
+                      }
+                    ]
+                  }
+                },
+                "before": {
+                  "stringValue": "Right"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "large": {
+                  "booleanValue": false
+                },
+                "row": {
+                  "stringValue": "r1"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "large": {
+                  "booleanValue": false
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "section": {
+                  "integerValue": "4"
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Critical Strike Damage"
+                      },
+                      {
+                        "stringValue": "Slow"
+                      }
+                    ]
+                  }
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "7"
+                      }
+                    ]
+                  }
+                },
+                "name": {
+                  "stringValue": "Opening Fire"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "id": {
+                  "integerValue": "12"
+                },
+                "global_req": {
+                  "integerValue": "3"
+                },
+                "group": {
+                  "integerValue": "1"
+                },
+                "before": {
+                  "stringValue": "Left"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "top": {
+                  "integerValue": "740"
+                },
+                "left": {
+                  "integerValue": "830"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "11"
+                      }
+                    ]
+                  }
+                },
+                "column": {
+                  "stringValue": "c2"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "large": {
+                  "booleanValue": false
+                },
+                "before": {
+                  "stringValue": "Right"
+                },
+                "name": {
+                  "stringValue": "Loaded Munitions"
+                },
+                "column": {
+                  "stringValue": "c1"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "14"
+                      }
+                    ]
+                  }
+                },
+                "left": {
+                  "integerValue": "920"
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "top": {
+                  "integerValue": "740"
+                },
+                "id": {
+                  "integerValue": "13"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Vulnerable"
+                      }
+                    ]
+                  }
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "8"
+                      }
+                    ]
+                  }
+                },
+                "group": {
+                  "integerValue": "2"
+                },
+                "section": {
+                  "integerValue": "4"
+                },
+                "global_req": {
+                  "integerValue": "3"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "group": {
+                  "integerValue": "2"
+                },
+                "top": {
+                  "integerValue": "740"
+                },
+                "global_req": {
+                  "integerValue": "3"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "left": {
+                  "integerValue": "1010"
+                },
+                "large": {
+                  "booleanValue": false
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "name": {
+                  "stringValue": "Mastermind"
+                },
+                "before": {
+                  "stringValue": "Left"
+                },
+                "section": {
+                  "integerValue": "4"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "13"
+                      }
+                    ]
+                  }
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Crowd Control Duration"
+                      }
+                    ]
+                  }
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "8"
+                      }
+                    ]
+                  }
+                },
+                "column": {
+                  "stringValue": "c2"
+                },
+                "id": {
+                  "integerValue": "14"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "16"
+                      }
+                    ]
+                  }
+                },
+                "column": {
+                  "stringValue": "c1"
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "9"
+                      }
+                    ]
+                  }
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "section": {
+                  "integerValue": "4"
+                },
+                "left": {
+                  "integerValue": "1130"
+                },
+                "before": {
+                  "stringValue": "Right"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "name": {
+                  "stringValue": "Incendiary Bolt"
+                },
+                "large": {
+                  "booleanValue": false
+                },
+                "top": {
+                  "integerValue": "740"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "group": {
+                  "integerValue": "3"
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "global_req": {
+                  "integerValue": "3"
+                },
+                "id": {
+                  "integerValue": "15"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "column": {
+                  "stringValue": "c2"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "15"
+                      }
+                    ]
+                  }
+                },
+                "name": {
+                  "stringValue": "Ambusher"
+                },
+                "before": {
+                  "stringValue": "Left"
+                },
+                "top": {
+                  "integerValue": "740"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "large": {
+                  "booleanValue": false
+                },
+                "global_req": {
+                  "integerValue": "3"
+                },
+                "left": {
+                  "integerValue": "1220"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "id": {
+                  "integerValue": "16"
+                },
+                "group": {
+                  "integerValue": "3"
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Lucky Hit"
+                      }
+                    ]
+                  }
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "9"
+                      }
+                    ]
+                  }
+                },
+                "section": {
+                  "integerValue": "4"
+                },
+                "row": {
+                  "stringValue": "r1"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "top": {
+                  "integerValue": "740"
+                },
+                "global_req": {
+                  "integerValue": "3"
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "large": {
+                  "booleanValue": false
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "section": {
+                  "integerValue": "4"
+                },
+                "id": {
+                  "integerValue": "17"
+                },
+                "group": {
+                  "integerValue": "4"
+                },
+                "name": {
+                  "stringValue": "Thrillseeker"
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "10"
+                      }
+                    ]
+                  }
+                },
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Cooldown"
+                      }
+                    ]
+                  }
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "left": {
+                  "integerValue": "1310"
+                },
+                "column": {
+                  "stringValue": "c1"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "18"
+                      }
+                    ]
+                  }
+                },
+                "before": {
+                  "stringValue": "Right"
+                }
+              }
+            }
+          },
+          {
+            "mapValue": {
+              "fields": {
+                "filters": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "stringValue": "Overpower"
+                      }
+                    ]
+                  }
+                },
+                "pre_req": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "10"
+                      }
+                    ]
+                  }
+                },
+                "top": {
+                  "integerValue": "740"
+                },
+                "left": {
+                  "integerValue": "1400"
+                },
+                "section": {
+                  "integerValue": "4"
+                },
+                "group": {
+                  "integerValue": "4"
+                },
+                "name": {
+                  "stringValue": "Bargaining Chips"
+                },
+                "id": {
+                  "integerValue": "18"
+                },
+                "before": {
+                  "stringValue": "Left"
+                },
+                "total_rank": {
+                  "integerValue": "1"
+                },
+                "column": {
+                  "stringValue": "c2"
+                },
+                "choice": {
+                  "arrayValue": {
+                    "values": [
+                      {
+                        "integerValue": "17"
+                      }
+                    ]
+                  }
+                },
+                "large": {
+                  "booleanValue": false
+                },
+                "mercenary": {
+                  "stringValue": "Subo, The Drunken Archer"
+                },
+                "no_interact": {
+                  "booleanValue": false
+                },
+                "row": {
+                  "stringValue": "r1"
+                },
+                "active_rank": {
+                  "integerValue": "0"
+                },
+                "global_req": {
+                  "integerValue": "3"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "owner": {
+      "stringValue": "h6DI2ppKtibDMDxBNy0gNPHZKFQ2"
+    },
+    "warplans": {
+      "mapValue": {
+        "fields": {
+          "Boss Lairs": {
+            "stringValue": "00000000111"
+          },
+          "Helltides": {
+            "stringValue": "00000010100000000"
+          },
+          "Pits": {
+            "stringValue": "010111"
+          },
+          "Whispers": {
+            "stringValue": "000010010101"
+          },
+          "Infernal Hordes": {
+            "stringValue": "0000000000000111"
+          },
+          "Undercity": {
+            "stringValue": "01111"
+          },
+          "Nightmare Dungeons": {
+            "stringValue": "01100100000"
+          }
+        }
+      }
+    },
+    "skills": {
+      "arrayValue": {
+        "values": [
+          {
+            "stringValue": "Dark Prison"
+          },
+          {
+            "stringValue": "Nether Step"
+          },
+          {
+            "stringValue": "Summon Abodian"
+          },
+          {
+            "stringValue": "Terror Swarm"
+          },
+          {
+            "stringValue": "Command Fallen"
+          },
+          {
+            "stringValue": "Blazing Scream"
+          }
+        ]
+      }
+    },
+    "bloodiedAffixes": {
+      "mapValue": {
+        "fields": {
+          "Chest Armor": {
+            "nullValue": null
+          },
+          "Boots": {
+            "nullValue": null
+          },
+          "Amulet": {
+            "nullValue": null
+          },
+          "Ring 1": {
+            "nullValue": null
+          },
+          "Dual-Wield Weapon 1": {
+            "nullValue": null
+          },
+          "Helm": {
+            "nullValue": null
+          },
+          "Slashing Weapon": {
+            "nullValue": null
+          },
+          "Ring 2": {
+            "nullValue": null
+          },
+          "Gloves": {
+            "nullValue": null
+          },
+          "Bludgeoning Weapon": {
+            "nullValue": null
+          },
+          "Dual-Wield Weapon 2": {
+            "nullValue": null
+          },
+          "Pants": {
+            "nullValue": null
+          }
+        }
+      }
+    },
+    "bloodiedAffixesGAMW": {
+      "mapValue": {
+        "fields": {
+          "Pants": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Bludgeoning Weapon": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Gloves": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Slashing Weapon": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Dual-Wield Weapon 1": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Ring 2": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Chest Armor": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Ring 1": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Amulet": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Helm": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Boots": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Dual-Wield Weapon 2": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "showcase": {
+      "stringValue": "HyJq7mi-zRM"
+    },
+    "mercenaryOpportunity2": {
+      "stringValue": "Dread Claws"
+    },
+    "elixirs": {
+      "arrayValue": {
+        "values": [
+          {
+            "stringValue": "Elixir of Resourcefulness"
+          },
+          {
+            "stringValue": "Blessed Guide"
+          },
+          {
+            "stringValue": "Song of the Mountain"
+          },
+          {
+            "stringValue": "Soothing Spices"
+          }
+        ]
+      }
+    },
+    "chaosPerks": {
+      "arrayValue": {
+        "values": [
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "spiritHall": {
+      "mapValue": {
+        "fields": {
+          "Secondary": {
+            "stringValue": ""
+          },
+          "Primary": {
+            "stringValue": ""
+          }
+        }
+      }
+    },
+    "horadricSpells": {
+      "arrayValue": {
+        "values": [
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "greaterAffixes": {
+      "mapValue": {
+        "fields": {
+          "Ring 2": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Boots": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Gloves": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Helm": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Weapon": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Chest Armor": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Offhand": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Amulet": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Ring 1": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Pants": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "sanitized": {
+      "booleanValue": true
+    },
+    "hearts": {
+      "arrayValue": {
+        "values": [
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "lastUpdated": {
+      "stringValue": "September 15, 2026"
+    },
+    "reinforcement2": {
+      "stringValue": "Raheir, The Shieldbearer"
+    },
+    "oaths": {
+      "nullValue": null
+    },
+    "craftedMythic": {
+      "arrayValue": {}
+    },
+    "tuningStones": {
+      "arrayValue": {
+        "values": [
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "mercenarySkillTree2": {
+      "stringValue": "1001001000010000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "witchPowers": {
+      "arrayValue": {
+        "values": [
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "specialization": {
+      "nullValue": null
+    },
+    "order": {
+      "integerValue": "0"
+    },
+    "newStats": {
+      "mapValue": {
+        "fields": {
+          "Ring 2": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Willpower"
+                },
+                {
+                  "stringValue": "Critical Strike Chance"
+                },
+                {
+                  "stringValue": "Critical Strike Damage Multiplier"
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "stringValue": "Attack Speed"
+                }
+              ]
+            }
+          },
+          "Helm": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Willpower"
+                },
+                {
+                  "stringValue": "Maximum Life"
+                },
+                {
+                  "stringValue": "Maximum Resource"
+                },
+                {
+                  "stringValue": "Cooldown Reduction"
+                }
+              ]
+            }
+          },
+          "Gloves": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Willpower"
+                },
+                {
+                  "stringValue": "Critical Strike Chance"
+                },
+                {
+                  "stringValue": "Critical Strike Damage Multiplier"
+                },
+                {
+                  "stringValue": "Attack Speed"
+                }
+              ]
+            }
+          },
+          "Boots": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Willpower"
+                },
+                {
+                  "stringValue": "Maximum Life"
+                },
+                {
+                  "stringValue": "Wrath Regeneration"
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "stringValue": "Movement Speed"
+                }
+              ]
+            }
+          },
+          "Weapon": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Chest Armor": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Willpower"
+                },
+                {
+                  "stringValue": "Maximum Life"
+                },
+                {
+                  "stringValue": "Maximum Resource"
+                },
+                {
+                  "stringValue": "Wrath Regeneration"
+                }
+              ]
+            }
+          },
+          "Offhand": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Ring 1": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Willpower"
+                },
+                {
+                  "stringValue": "Maximum Life"
+                },
+                {
+                  "stringValue": "Critical Strike Chance"
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "stringValue": "Critical Strike Damage Multiplier"
+                }
+              ]
+            }
+          },
+          "Pants": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Willpower"
+                },
+                {
+                  "stringValue": "Maximum Life"
+                },
+                {
+                  "stringValue": "Wrath Regeneration"
+                },
+                {
+                  "stringValue": "Resistance to All Elements"
+                }
+              ]
+            }
+          },
+          "Amulet": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Willpower"
+                },
+                {
+                  "stringValue": "Critical Strike Chance"
+                },
+                {
+                  "stringValue": "Critical Strike Damage Multiplier"
+                },
+                {
+                  "stringValue": "All Damage Multipler"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "lastUpdatedSort": {
+      "integerValue": "1789490976522"
+    },
+    "masterworking": {
+      "mapValue": {
+        "fields": {
+          "Boots": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Amulet": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Ring 1": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Helm": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Chest Armor": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Offhand": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Ring 2": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Gloves": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Weapon": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          },
+          "Pants": {
+            "arrayValue": {
+              "values": [
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                },
+                {
+                  "nullValue": null
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "expertise": {
+      "nullValue": null
+    },
+    "gear": {
+      "mapValue": {
+        "fields": {
+          "Pants": {
+            "stringValue": "Protecting Aspect"
+          },
+          "Amulet": {
+            "stringValue": "Edgemaster's Aspect"
+          },
+          "Ring 1": {
+            "stringValue": "Aspect of Peril"
+          },
+          "Chest Armor": {
+            "stringValue": "Aspect of Might"
+          },
+          "Weapon": {
+            "nullValue": null
+          },
+          "Boots": {
+            "stringValue": "Aspect of Impetus"
+          },
+          "Offhand": {
+            "stringValue": "Demonic Aspect"
+          },
+          "Gloves": {
+            "stringValue": "Aspect of Scorching Heat"
+          },
+          "Helm": {
+            "stringValue": "Juggernaut's Aspect"
+          },
+          "Ring 2": {
+            "stringValue": "Aggressive Aspect"
+          }
+        }
+      }
+    },
+    "boons": {
+      "mapValue": {
+        "fields": {
+          "Snake": {
+            "arrayValue": {}
+          },
+          "Deer": {
+            "arrayValue": {}
+          },
+          "Wolf": {
+            "arrayValue": {}
+          },
+          "Eagle": {
+            "arrayValue": {}
+          }
+        }
+      }
+    },
+    "divineGifts": {
+      "arrayValue": {
+        "values": [
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "paragon": {
+      "mapValue": {
+        "fields": {
+          "selectedTiles": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "startingboard_r15c11"
+                },
+                {
+                  "stringValue": "startingboard_r14c11"
+                },
+                {
+                  "stringValue": "startingboard_r14c12"
+                },
+                {
+                  "stringValue": "startingboard_r14c13"
+                },
+                {
+                  "stringValue": "startingboard_r13c13"
+                },
+                {
+                  "stringValue": "startingboard_r12c13"
+                },
+                {
+                  "stringValue": "startingboard_r11c13"
+                },
+                {
+                  "stringValue": "startingboard_r12c14"
+                },
+                {
+                  "stringValue": "startingboard_r10c13"
+                },
+                {
+                  "stringValue": "startingboard_r9c13"
+                },
+                {
+                  "stringValue": "startingboard_r8c13"
+                },
+                {
+                  "stringValue": "startingboard_r7c13"
+                },
+                {
+                  "stringValue": "startingboard_r7c12"
+                },
+                {
+                  "stringValue": "startingboard_r6c12"
+                },
+                {
+                  "stringValue": "startingboard_r5c12"
+                },
+                {
+                  "stringValue": "startingboard_r7c11"
+                },
+                {
+                  "stringValue": "startingboard_r4c12"
+                },
+                {
+                  "stringValue": "startingboard_r3c12"
+                },
+                {
+                  "stringValue": "startingboard_r2c12"
+                },
+                {
+                  "stringValue": "startingboard_r2c11"
+                }
+              ]
+            }
+          },
+          "boards": {
+            "arrayValue": {
+              "values": [
+                {
+                  "mapValue": {
+                    "fields": {
+                      "y": {
+                        "integerValue": "0"
+                      },
+                      "rotation": {
+                        "integerValue": "0"
+                      },
+                      "boardNumber": {
+                        "integerValue": "1"
+                      },
+                      "name": {
+                        "stringValue": "Starting Board"
+                      },
+                      "glyph": {
+                        "stringValue": "Hellforge"
+                      },
+                      "x": {
+                        "integerValue": "0"
+                      },
+                      "glyphLevel": {
+                        "integerValue": "100"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "seal": {
+      "mapValue": {
+        "fields": {
+          "value": {
+            "arrayValue": {
+              "values": [
+                {
+                  "stringValue": "Critical Strike Damage"
+                }
+              ]
+            }
+          },
+          "name": {
+            "stringValue": "Seal"
+          },
+          "rarity": {
+            "stringValue": "Legendary"
+          },
+          "stat": {
+            "stringValue": "[45-47.5%] Total Armor"
+          }
+        }
+      }
+    },
+    "sanctification": {
+      "mapValue": {
+        "fields": {
+          "Helm": {
+            "nullValue": null
+          },
+          "Pants": {
+            "nullValue": null
+          },
+          "Ring 1": {
+            "nullValue": null
+          },
+          "Chest Armor": {
+            "nullValue": null
+          },
+          "Amulet": {
+            "nullValue": null
+          },
+          "Gloves": {
+            "nullValue": null
+          },
+          "Ring 2": {
+            "nullValue": null
+          },
+          "Boots": {
+            "nullValue": null
+          }
+        }
+      }
+    },
+    "catalystPair": {
+      "arrayValue": {
+        "values": [
+          {
+            "nullValue": null
+          },
+          {
+            "nullValue": null
+          }
+        ]
+      }
+    },
+    "summons": {
+      "mapValue": {
+        "fields": {
+          "Skeletal Mages": {
+            "mapValue": {
+              "fields": {
+                "spec": {
+                  "nullValue": null
+                },
+                "upgrade": {
+                  "nullValue": null
+                }
+              }
+            }
+          },
+          "Skeletal Warriors": {
+            "mapValue": {
+              "fields": {
+                "spec": {
+                  "nullValue": null
+                },
+                "upgrade": {
+                  "nullValue": null
+                }
+              }
+            }
+          },
+          "Golems": {
+            "mapValue": {
+              "fields": {
+                "spec": {
+                  "nullValue": null
+                },
+                "upgrade": {
+                  "nullValue": null
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "variantName": {
+      "stringValue": "Standard Build"
+    },
+    "name": {
+      "stringValue": "Blazing Scream Warlock Leveling (S15)"
+    }
+  },
+  "createTime": "2026-09-15T15:57:31.654230Z",
+  "updateTime": "2026-09-15T16:48:42.513648Z"
+}
