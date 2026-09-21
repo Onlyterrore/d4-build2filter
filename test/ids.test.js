@@ -2,6 +2,8 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { makeLookup } from '../src/ids.js';
+import { decodeFilter } from '../src/decode.js';
+import { COND } from '../src/constants.js';
 
 const rows = [
   { name: 'Critical Strike Chance', id: 111, source: 'game-export', verified: '2026-09-21' },
@@ -23,8 +25,20 @@ test('неизвестное название даёт null, а не выдум�
   assert.equal(makeLookup(rows)('Что-то Неизвестное'), null);
 });
 
-test('таблица типов несёт готовые группы из эталона', () => {
+test('группы типов совпадают с эталонным фильтром, а не переписаны руками', () => {
+  // Числа в data/type-ids.json однажды были вписаны глазами и разошлись с
+  // эталоном. Этот тест сверяет таблицу с самим эталоном, чтобы такое
+  // больше не прошло незамеченным.
   const table = JSON.parse(readFileSync(new URL('../data/type-ids.json', import.meta.url), 'utf8'));
-  assert.equal(table.groups.allExceptTalismans.ids.length, 27);
-  assert.equal(table.groups.talismans.ids.length, 2);
+  const code = readFileSync(new URL('./fixtures/maxroll-light.txt', import.meta.url), 'utf8');
+  const f = decodeFilter(code);
+  const typeSets = f.rules
+    .map(r => r.conditions.find(c => c.type === COND.ITEM_TYPE_MATCH))
+    .filter(Boolean)
+    .map(c => c.params);
+
+  const big = typeSets.find(s => s.length === 27);
+  const small = typeSets.find(s => s.length === 2);
+  assert.deepEqual(table.groups.allExceptTalismans.ids, big);
+  assert.deepEqual(table.groups.talismans.ids, small);
 });

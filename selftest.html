@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>d4-build2filter · самопроверка</title>
+<body style="font:16px/1.5 system-ui,sans-serif;max-width:48rem;margin:2rem auto;padding:0 1rem">
+<h1>Самопроверка</h1>
+<p>Те же проверки, что в тестах, но в браузере — чтобы убедиться, что кодек ведёт себя
+одинаково и здесь.</p>
+<pre id="out">запуск…</pre>
+<p><a href="./">← к инструменту</a></p>
+<script type="module">
+import { decodeFilter } from './src/decode.js';
+import { encodeFilter } from './src/encode.js';
+
+const out = document.getElementById('out');
+const log = [];
+let failed = 0;
+
+function check(name, fn) {
+  try { fn(); log.push('OK   ' + name); }
+  catch (e) { failed++; log.push('FAIL ' + name + '\n     ' + e.message); }
+}
+
+const code = (await fetch('./test/fixtures/maxroll-light.txt').then(r => r.text())).trim();
+
+check('чужой рабочий код разбирается', () => {
+  const n = decodeFilter(code).rules.length;
+  if (n < 7) throw new Error('правил всего ' + n);
+});
+
+check('круг разбор → сборка → разбор совпадает', () => {
+  const a = decodeFilter(code);
+  if (JSON.stringify(decodeFilter(encodeFilter(a))) !== JSON.stringify(a)) {
+    throw new Error('расхождение после круга');
+  }
+});
+
+check('пересборка совпадает с оригиналом побайтово', () => {
+  if (encodeFilter(decodeFilter(code)) !== code) throw new Error('коды отличаются');
+});
+
+out.textContent = log.join('\n') + '\n\n' + (failed ? `ПРОВАЛОВ: ${failed}` : 'всё зелёное');
+out.style.color = failed ? '#b00' : '#060';
+</script>
+</body>
+</html>

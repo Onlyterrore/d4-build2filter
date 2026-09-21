@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>d4-build2filter · сверка id</title>
+<style>
+  body { font:16px/1.6 system-ui,sans-serif; max-width:46rem; margin:2rem auto; padding:0 1rem; }
+  textarea { width:100%; height:6rem; font-family:ui-monospace,monospace; font-size:12px; }
+  table { border-collapse:collapse; width:100%; margin-top:1rem }
+  td,th { border:1px solid #8884; padding:.35rem .5rem; text-align:left }
+  pre { background:#8881; padding:.75rem; overflow:auto }
+  input { font:inherit; padding:.5rem }
+</style>
+<body>
+<h1>Сверка id по экспорту из игры</h1>
+
+<ol>
+  <li>В игре создайте фильтр, в котором ровно одно условие и в нём отмечен
+      один-единственный признак.</li>
+  <li>Экспортируйте его и вставьте код сюда.</li>
+  <li>Впишите название признака ровно так, как оно пишется на d4builds.</li>
+</ol>
+
+<p><input id="name" placeholder="Critical Strike Chance" size="42"></p>
+<p><textarea id="code" placeholder="код, экспортированный из игры"></textarea></p>
+<p><button id="go">Разобрать</button></p>
+<div id="out"></div>
+
+<p style="margin-top:2rem"><a href="./">← к инструменту</a></p>
+
+<script type="module">
+import { decodeFilter } from './src/decode.js';
+import { COND } from './src/constants.js';
+
+const esc = s => String(s).replace(/[&<>]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;' }[c]));
+
+document.getElementById('go').onclick = () => {
+  const out = document.getElementById('out');
+  try {
+    const f = decodeFilter(document.getElementById('code').value);
+    const found = [];
+    for (const r of f.rules) {
+      for (const c of r.conditions) {
+        const condName = Object.keys(COND).find(k => COND[k] === c.type) ?? ('тип ' + c.type);
+        for (const id of c.params) found.push({ rule: r.name, cond: condName, id });
+      }
+    }
+    const rows = found
+      .map(x => `<tr><td>${esc(x.rule)}</td><td>${esc(x.cond)}</td><td>${x.id}</td></tr>`)
+      .join('');
+    const name = document.getElementById('name').value.trim();
+    const today = new Date().toISOString().slice(0, 10);
+    const line = found.length === 1 && name
+      ? `<p>Готовая строка для таблицы:</p><pre>{ "name": ${esc(JSON.stringify(name))}, "id": ${found[0].id}, "source": "game-export", "verified": "${today}" }</pre>`
+      : `<p>Найдено чисел: ${found.length}. Для сверки нужно ровно одно — оставьте в фильтре
+         одно условие с одним признаком и впишите его название выше.</p>`;
+    out.innerHTML = `<table><tr><th>правило</th><th>условие</th><th>id</th></tr>${rows}</table>${line}`;
+  } catch (e) {
+    out.innerHTML = `<p style="color:#c00">Не удалось разобрать код: ${esc(e.message)}</p>`;
+  }
+};
+</script>
+</body>
+</html>

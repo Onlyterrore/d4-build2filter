@@ -1116,7 +1116,8 @@ import {
   NON_ANCESTRAL_MAX_POWER, DEFAULT_HIGHLIGHT_COLOR, CODEX_COLOR,
 } from './constants.js';
 
-const cond = (type, { params = [], value1 = 0, value2 = 0 } = {}) => ({ type, params, value1, value2 });
+const cond = (type, { params = [], value1 = 0, value2 = 0, value3 = 0 } = {}) =>
+  ({ type, params, value1, value2, value3 });
 
 function baseRules() {
   return [
@@ -1136,7 +1137,9 @@ function baseRules() {
     },
     {
       name: 'Апгрейд кодекса', visibility: VISIBILITY.RECOLOR, color: CODEX_COLOR, enabled: true,
-      conditions: [cond(COND.CODEX_UPGRADE_CHECK, { value1: 1 })],
+      // Флаг кодекса живёт в value3 (поле 6), не в value1.
+      // Выяснено при исполнении: с value1 наш код расходился с экспортом игры.
+      conditions: [cond(COND.CODEX_UPGRADE_CHECK, { value3: 1 })],
     },
   ];
 }
