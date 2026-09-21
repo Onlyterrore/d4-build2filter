@@ -44,15 +44,15 @@ test('у слота с неподтверждённым типом услови�
   const r = buildFilter(profile, opts);
   const helm = r.filter.rules.find(x => x.name.includes('Helm'));
   assert.equal(helm.conditions.some(c => c.type === COND.ITEM_TYPE_MATCH), false);
-  assert.equal(helm.conditions.find(c => c.type === COND.HAS_REQUIRED_AFFIXES).params.length, 1);
+  assert.equal(helm.conditions.find(c => c.type === COND.HAS_OPTIONAL_AFFIXES).params.length, 1);
 });
 
 test('порог совпадения попадает в правило и не превышает числа свойств', () => {
   const r = buildFilter(profile, opts);
   const ring = r.filter.rules.find(x => x.name.includes('Ring'));
-  assert.equal(ring.conditions.find(c => c.type === COND.HAS_REQUIRED_AFFIXES).value1, 2);
+  assert.equal(ring.conditions.find(c => c.type === COND.HAS_OPTIONAL_AFFIXES).value1, 2);
   const helm = r.filter.rules.find(x => x.name.includes('Helm'));
-  assert.equal(helm.conditions.find(c => c.type === COND.HAS_REQUIRED_AFFIXES).value1, 1);
+  assert.equal(helm.conditions.find(c => c.type === COND.HAS_OPTIONAL_AFFIXES).value1, 1);
 });
 
 test('прятки есть и ни в одном нет условия про аффиксы', () => {

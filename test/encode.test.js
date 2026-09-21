@@ -21,6 +21,26 @@ test('пересборка чужого кода совпадает с ним п
   assert.equal(encodeFilter(decodeFilter(code)), code);
 });
 
+// Второй эталон — экспорт прямо из игры, сделанный владельцем 2026-09-21.
+// Он покрывает то, чего нет в первом: безымянное правило (игра тогда вовсе
+// не пишет поле имени) и условие HAS_OPTIONAL_AFFIXES.
+const fromGame = readFileSync(
+  new URL('./fixtures/game-export-crit-chance.txt', import.meta.url), 'utf8').trim();
+
+test('экспорт из игры пересобирается побайтово', () => {
+  assert.equal(encodeFilter(decodeFilter(fromGame)), fromGame);
+});
+
+test('безымянное правило и условие на аффикс разобраны верно', () => {
+  const f = decodeFilter(fromGame);
+  assert.equal(f.rules.length, 1);
+  assert.equal(f.rules[0].name, '');
+  const c = f.rules[0].conditions[0];
+  assert.equal(c.type, COND.HAS_OPTIONAL_AFFIXES);
+  assert.deepEqual(c.params, [1829582]);
+  assert.equal(c.value1, 1);
+});
+
 test('кодирует правило, собранное с нуля', () => {
   const filter = {
     name: 'Проверка',

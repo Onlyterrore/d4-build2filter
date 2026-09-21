@@ -16,7 +16,9 @@ function encodeCondition(c) {
 }
 
 function encodeRule(r) {
-  const out = [...lenDelim(1, utf8(r.name))];
+  // Пустое имя игра не пишет вовсе — проверено на экспорте из игры
+  // (безымянное правило начинается сразу с поля видимости).
+  const out = r.name ? [...lenDelim(1, utf8(r.name))] : [];
   // Видимость пишем всегда, даже нулевую (SHOW): замер 2026-09-21 показал,
   // что экспорт из игры делает именно так. Повторяем за источником.
   out.push(...writeTag(2, 0), ...writeVarint(r.visibility));

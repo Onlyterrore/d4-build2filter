@@ -100,7 +100,11 @@ export function buildFilter(profile, { affixLookup, typeLookup, typeGroups, tier
     // Тип не подтверждён — условие выбрасываем. Подсветится лишнее,
     // но ничего нужного не потеряется.
     if (g.typeId != null) conditions.push(cond(COND.ITEM_TYPE_MATCH, { params: [g.typeId] }));
-    conditions.push(cond(COND.HAS_REQUIRED_AFFIXES, {
+    // Игра при отметке аффиксов выдаёт именно HAS_OPTIONAL_AFFIXES со счётчиком
+    // в value1 — замер по экспорту из игры 2026-09-21. Повторяем за источником.
+    // UNVERIFIED: что означает счётчик при нескольких аффиксах — "не меньше N"
+    // или что-то иное. Проверяется экспортом правила с двумя отмеченными.
+    conditions.push(cond(COND.HAS_OPTIONAL_AFFIXES, {
       params: g.ids,
       value1: Math.min(threshold, g.ids.length),
     }));
