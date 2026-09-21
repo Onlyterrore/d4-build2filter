@@ -8,7 +8,11 @@ import { decodeFilter } from './decode.js';
 const DB = 'https://firestore.googleapis.com/v1/projects/d4builds-a3254/databases/(default)/documents/builds/';
 const DAY = 24 * 60 * 60 * 1000;
 
-const json = path => fetch(path).then(r => r.json());
+// no-cache, а не обычный fetch: справочники id меняются по мере сверки с игрой,
+// а браузер иначе отдаёт старую копию и посетитель видит вчерашние данные.
+// Замер 2026-09-21: после обновления таблицы страница продолжала показывать
+// аффикс как непереведённый, хотя на сервере он уже был.
+const json = path => fetch(path, { cache: 'no-cache' }).then(r => r.json());
 
 // Кешируем на сутки: не бьём по чужому серверу при каждом открытии.
 async function fetchBuild(id) {
