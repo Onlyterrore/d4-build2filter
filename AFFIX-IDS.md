@@ -68,6 +68,36 @@
 | Resistance to All Elements | 1834808 | — |
 | Wrath Regeneration | 2532732 | — |
 
+### 2026-09-21, третий заход: типы вещей
+
+Тем же приёмом, условие `Item Type Match`. Весь список типов умещается на одном экране,
+прокручивать не нужно.
+
+| Тип | id |
+|---|---|
+| Focus | 446826 |
+| Chest Armor | 446829 |
+| Helm | 446830 |
+| Pants | 446831 |
+| Boots | 446832 |
+| Gloves | 446833 |
+| Ring | 446836 |
+| Amulet | 446837 |
+
+Все восемь входят в набор `allExceptTalismans`, извлечённый из эталонного фильтра, —
+сходится.
+
+**Офф-хенд чернокнижника в игре называется `Focus`.** У других классов там может быть щит
+или вторая рука — понадобится свой id.
+
+Разделы типов: `WEAPONS` (9), `ARMOR` (5), `JEWELRY` (2), `TALISMAN` (2). Слот оружия
+у билда владельца пуст, поэтому id оружия не снимались.
+
+**Порядок условий в выпадающем списке игры подтвердил все десять номеров** из
+`src/constants.js`: Item Power Range, Item Rarity Match, Item Properties, Codex Upgrade
+Check, Greater Affix Check, Item Type Match, Has Required Affixes, Has Optional Affixes,
+Is Specific Unique, Talisman Set Bonus — ровно в этом порядке, от 0 до 9.
+
 ### Почему таблица сообщества не годится
 
 Открытый генератор 13 сезона (MIT, Brian Upshaw) даёт 62 пары «имя → id». **Подписи в нём

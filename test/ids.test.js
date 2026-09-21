@@ -47,6 +47,16 @@ test('все аффиксы билда владельца переводятся
   }
 });
 
+test('все типы вещей билда владельца переводятся', () => {
+  const table = JSON.parse(readFileSync(new URL('../data/type-ids.json', import.meta.url), 'utf8'));
+  const lookup = makeLookup(table.types);
+  // Ключи ровно те, что кладёт profile.js в поле itemType.
+  for (const key of ['helm', 'chest', 'gloves', 'pants', 'boots', 'amulet', 'ring', 'offhand']) {
+    assert.ok(lookup(key), `не найден тип: ${key}`);
+    assert.equal(lookup(key).source, 'game-export', `${key} должен быть подтверждён игрой`);
+  }
+});
+
 test('группы типов совпадают с эталонным фильтром, а не переписаны руками', () => {
   // Числа в data/type-ids.json однажды были вписаны глазами и разошлись с
   // эталоном. Этот тест сверяет таблицу с самим эталоном, чтобы такое

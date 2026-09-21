@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "note": "groups извлечены из эталонного фильтра; types наполняются экспортом из игры. См. AFFIX-IDS.md",
+  "note": "groups извлечены из эталонного фильтра, types сняты экспортом из живой игры. См. AFFIX-IDS.md",
   "groups": {
     "allExceptTalismans": {
       "source": "derived-from-reference-filter",
@@ -17,5 +17,17 @@
       "ids": [2326144, 2288901]
     }
   },
-  "types": []
+  "types": [
+    { "name": "Helm", "id": 446830, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Chest Armor", "id": 446829, "source": "game-export", "verified": "2026-09-21",
+      "aliases": ["chest"] },
+    { "name": "Gloves", "id": 446833, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Pants", "id": 446831, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Boots", "id": 446832, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Amulet", "id": 446837, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Ring", "id": 446836, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Focus", "id": 446826, "source": "game-export", "verified": "2026-09-21",
+      "aliases": ["offhand"],
+      "comment": "Офф-хенд чернокнижника называется в игре Focus. Для других классов слот может быть щитом или второй рукой — тогда понадобится свой id." }
+  ]
 }
