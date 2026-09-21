@@ -37,7 +37,7 @@ test('одинаковые кольца склеены в одно правил�
   const r = buildFilter(profile, opts);
   const ringRules = r.filter.rules.filter(x => x.name.includes('Ring'));
   assert.equal(ringRules.length, 1);
-  assert.equal(ringRules[0].name, 'Проверочный билд · Ring 1, Ring 2');
+  assert.equal(ringRules[0].name, 'Ring 1, Ring 2');
 });
 
 test('у слота с неподтверждённым типом условие о типе выброшено', () => {

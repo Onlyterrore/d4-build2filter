@@ -16,14 +16,14 @@ function baseRules() {
       ],
     },
     {
-      name: 'Древние уникумы и мифики', visibility: VISIBILITY.SHOW, color: null, enabled: true,
+      name: 'Древние', visibility: VISIBILITY.SHOW, color: null, enabled: true,
       conditions: [
         cond(COND.ITEM_PROPERTIES, { value1: PROPERTY.ANCESTRAL }),
         cond(COND.ITEM_RARITY_MATCH, { value1: RARITY.UNIQUE | RARITY.MYTHIC }),
       ],
     },
     {
-      name: 'Апгрейд кодекса', visibility: VISIBILITY.RECOLOR, color: CODEX_COLOR, enabled: true,
+      name: 'Кодекс', visibility: VISIBILITY.RECOLOR, color: CODEX_COLOR, enabled: true,
       // Флаг кодекса живёт в value3 (поле 6), не в value1 — замер по эталону.
       conditions: [cond(COND.CODEX_UPGRADE_CHECK, { value3: 1 })],
     },
@@ -46,7 +46,7 @@ const HIDE_TIERS = {
 
 function hideRules(tier, groups) {
   const rules = (HIDE_TIERS[tier] || HIDE_TIERS.light).map(([mask, label]) => ({
-    name: `Прятать недревнее: ${label}`,
+    name: `Мусор: ${label}`,
     visibility: VISIBILITY.HIDE_ALL,
     color: null,
     enabled: true,
@@ -60,7 +60,7 @@ function hideRules(tier, groups) {
   // Талисманы отдельным правилом: у них нет "древности", поэтому
   // ограничение по силе предмета здесь не ставится.
   rules.push({
-    name: 'Прятать слабые талисманы',
+    name: 'Талисманы',
     visibility: VISIBILITY.HIDE_ALL,
     color: null,
     enabled: true,
@@ -101,15 +101,20 @@ export function buildFilter(profile, { affixLookup, typeLookup, typeGroups, tier
     // но ничего нужного не потеряется.
     if (g.typeId != null) conditions.push(cond(COND.ITEM_TYPE_MATCH, { params: [g.typeId] }));
     // Игра при отметке аффиксов выдаёт именно HAS_OPTIONAL_AFFIXES со счётчиком
-    // в value1 — замер по экспорту из игры 2026-09-21. Повторяем за источником.
-    // UNVERIFIED: что означает счётчик при нескольких аффиксах — "не меньше N"
-    // или что-то иное. Проверяется экспортом правила с двумя отмеченными.
+    // в value1. Счётчик означает "не меньше N" — так написано в самом редакторе
+    // правил: "Must have at least [N] of the selected affixes". Замер 2026-09-21.
+    //
+    // Осторожно с высоким порогом: при импорте игра молча выбрасывает часть
+    // аффиксов (см. FINDINGS.md), а порог оставляет прежним — правило от этого
+    // становится СТРОЖЕ задуманного. Поэтому по умолчанию порог 1.
     conditions.push(cond(COND.HAS_OPTIONAL_AFFIXES, {
       params: g.ids,
       value1: Math.min(threshold, g.ids.length),
     }));
     return {
-      name: `${profile.name} · ${g.slots.join(', ')}`,
+      // Короткое имя, без названия билда. Замер импорта в игру 2026-09-21:
+      // длинные имена правил игра при импорте выбрасывает, короткие сохраняет.
+      name: g.slots.join(', '),
       visibility: VISIBILITY.RECOLOR,
       color: DEFAULT_HIGHLIGHT_COLOR,
       enabled: true,
