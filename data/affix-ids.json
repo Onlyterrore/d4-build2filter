@@ -1,7 +1,17 @@
 {
   "schema": 1,
-  "note": "id подтверждаются экспортом из игры; см. AFFIX-IDS.md. Выдуманных чисел здесь нет.",
+  "note": "Все id сняты экспортом из живой игры, 15 сезон. Выдуманных чисел здесь нет. См. AFFIX-IDS.md",
   "affixes": [
-    { "name": "Critical Strike Chance", "id": 1829582, "source": "game-export", "verified": "2026-09-21" }
+    { "name": "Willpower", "id": 1829574, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Attack Speed", "id": 1829556, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Critical Strike Chance", "id": 1829582, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Critical Strike Damage Multiplier", "id": 1829586, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "All Damage Multiplier", "id": 1829588, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Maximum Life", "id": 1829592, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Cooldown Reduction", "id": 1829560, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Movement Speed", "id": 1829598, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Maximum Resource", "id": 1834617, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Resistance to All Elements", "id": 1834808, "source": "game-export", "verified": "2026-09-21" },
+    { "name": "Wrath Regeneration", "id": 2532732, "source": "game-export", "verified": "2026-09-21" }
   ]
 }
