@@ -25,6 +25,28 @@ test('неизвестное название даёт null, а не выдум�
   assert.equal(makeLookup(rows)('Что-то Неизвестное'), null);
 });
 
+test('синоним находит ту же запись', () => {
+  const withAlias = [{ name: 'All Damage Multiplier', id: 999, source: 'game-export',
+    aliases: ['All Damage Multipler'] }];
+  const lookup = makeLookup(withAlias);
+  assert.equal(lookup('All Damage Multiplier').id, 999);
+  assert.equal(lookup('All Damage Multipler').id, 999, 'опечатка d4builds должна находиться');
+});
+
+test('все аффиксы билда владельца переводятся', () => {
+  const table = JSON.parse(readFileSync(new URL('../data/affix-ids.json', import.meta.url), 'utf8'));
+  const lookup = makeLookup(table.affixes);
+  const fromBuild = [
+    'Willpower', 'Maximum Life', 'Maximum Resource', 'Cooldown Reduction', 'Wrath Regeneration',
+    'Critical Strike Chance', 'Critical Strike Damage Multiplier', 'Attack Speed',
+    'Resistance to All Elements', 'Movement Speed', 'All Damage Multipler',
+  ];
+  for (const name of fromBuild) {
+    assert.ok(lookup(name), `не найдено: ${name}`);
+    assert.equal(lookup(name).source, 'game-export', `${name} должен быть подтверждён игрой`);
+  }
+});
+
 test('группы типов совпадают с эталонным фильтром, а не переписаны руками', () => {
   // Числа в data/type-ids.json однажды были вписаны глазами и разошлись с
   // эталоном. Этот тест сверяет таблицу с самим эталоном, чтобы такое

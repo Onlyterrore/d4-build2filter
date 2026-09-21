@@ -74,8 +74,8 @@ $('go').onclick = async () => {
     if (r.untranslated.affixes.length) {
       notes.push(`<div class="warn"><b>Не перенесено в фильтр (${r.untranslated.affixes.length}):</b><br>
         ${r.untranslated.affixes.map(esc).join('<br>')}<br><br>
-        Таблица id аффиксов пока пуста — её заполняет круг сверки с игрой.
-        До этого фильтр умеет прятать мусор, но не подсвечивать вещи под билд.</div>`);
+        Этих свойств ещё нет в таблице id — их добавляют экспортом из игры
+        на <a href="./verify.html">странице сверки</a>. Остальное в фильтр попало.</div>`);
     }
     if (r.untranslated.types.length) {
       notes.push(`<div class="warn"><b>Типы вещей не подтверждены:</b> ${r.untranslated.types.map(esc).join(', ')}.
